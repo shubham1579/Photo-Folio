@@ -1,0 +1,77 @@
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.heading{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.heading > span{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.addbtn{
+    background-color: rgba(0,119,255,.1);
+    border: 2px solid #07f;
+    border-radius: 5px;
+    color: #07f;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.deletebtn{
+    background-color: rgba(255,19,0,.1);
+    border: 2px solid #ff1300;
+    color: #ff1300;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.list{
+    display: flex;
+    justify-content: flex-start;
+    gap: 14.5px;
+    flex-wrap: wrap;
+}
+
+.album{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 18%;
+    height: 180px;
+    border-radius: 5px;
+    border: 5px solid #eee;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.album:hover{
+    border-color: #a0a0f9;
+}
+
+.album > img{
+    margin-top: 45px;
+    width: 30%;
+}
+
+.album > span{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #eee;
+    width: 100%;
+}
