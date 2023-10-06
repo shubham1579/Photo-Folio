@@ -17,3 +17,16 @@
     text-decoration: none;
     color: black;
 }
+
+@media screen and (max-width: 415px) {
+    .navcontainer{
+        height: 70px;
+    }
+
+    .navcontainer > a > img{
+        margin: 0 10px;
+        margin-left: 20px;
+        height: 30px;
+        width: auto !important;
+    }
+}

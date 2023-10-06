@@ -35,3 +35,19 @@
     object-fit: cover;
     width: 60vw;
 }
+
+@media screen and (max-width: 415px) {
+    .container button{
+        width: 40px;
+        font-size: 1rem;
+    }
+
+    .container button:first-of-type{
+        right: 25px;
+        top: 90px;
+    }
+
+    .container img{
+        height: 50%;
+    }
+}

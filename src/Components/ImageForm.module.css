@@ -55,3 +55,27 @@
     padding-block: 7px;
     width: 100px;
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 79vw;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .heading{
+        font-size: 22px;
+    }
+
+    .Input{
+        font-size: 15px;
+        padding: 5px 5px 5px 10px;
+    }
+
+    .actions button{
+        font-size: 15px;
+        padding-block: 6px;
+        width: 65px;
+    }
+}

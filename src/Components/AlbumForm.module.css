@@ -60,3 +60,27 @@
     padding-block: 7px;
     width: 100px;
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 79vw;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .heading{
+        font-size: 22px;
+    }
+
+    .formInput{
+        font-size: 16px;
+        padding: 5px 5px 5px 10px;
+        width: 80%;
+    }
+
+    .form button{
+        width: 70px;
+        font-size: 15px;
+        padding-block: 6px;
+    }
+}

@@ -75,3 +75,60 @@
     background-color: #eee;
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 85%;
+    }
+
+    .list{
+        gap: 17px;
+    }
+
+    .album{
+        width: 21%;
+        height: 150px;
+        border-width: 7px;
+        margin-bottom: 0;
+    }
+
+    .album > img{
+        margin-top: 39px;
+        width: 26%;
+    }
+
+    .album > span{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .container{
+        width: 90%;
+    }
+
+    .heading span{
+        font-size: 20px;
+    }
+
+    .heading button{
+        padding: 4px 7px;
+    }
+
+    .list{
+        gap: 16px;
+    }
+
+    .album{
+        width: 27%;
+        height: 115px;
+    }
+
+    .album img{
+        margin-top: 30px;
+    }
+
+    .album span{
+        font-size: 14px;
+    }
+}

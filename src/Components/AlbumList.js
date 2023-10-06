@@ -84,6 +84,8 @@ function AlbumList(){
         }
 
         setTitle('');
+        setVisible(false);
+        setBtnName('Add Album');
     }
 
     // Setting up the title for the imagelist component
@@ -109,7 +111,7 @@ function AlbumList(){
 
                 <div className={AlbumStyles.container}>
                     <div className={AlbumStyles.heading}>
-                        <span>Your Albums</span>
+                        <span>All Albums</span>
                         <button className={visible ? AlbumStyles.deletebtn : AlbumStyles.addbtn} onClick={(e) => handleBtnName(e)}>{btnName}</button>
                     </div>
                     <div className={AlbumStyles.list}>
