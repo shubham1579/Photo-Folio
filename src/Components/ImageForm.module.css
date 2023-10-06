@@ -63,7 +63,7 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 390px) {
     .heading{
         font-size: 22px;
     }
