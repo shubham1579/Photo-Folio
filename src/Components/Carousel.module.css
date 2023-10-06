@@ -36,7 +36,7 @@
     width: 60vw;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 350px) {
     .container button{
         width: 40px;
         font-size: 1rem;
