@@ -90,11 +90,10 @@ function ImageList(props){
                 url: imgURL,
                 createdAt: time
             });
-
-            setVisibility(false);
         }
         setImageTitle('');
         setImageURL('');
+        setVisibility(false);
 
     }
 
